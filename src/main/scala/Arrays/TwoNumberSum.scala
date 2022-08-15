@@ -5,7 +5,14 @@ import scala.collection.immutable._
 import scala.Some
 
 object TwoNumberSum {
-  
+    
+    /**
+      * 
+      *
+      * @param array
+      * @param target
+      * @return
+      */
     def twoNumberSum(array : Array[Int], target : Int) : Array[Int] =
         val mapOfTwoNumbers = HashMap[Int, Int]()
         for (el: Int <- array){

@@ -15,4 +15,10 @@ class FindMaxTest extends AnyFlatSpec {
     assert(FindMax.findMax(btree, Int.MinValue) == 17)
     
   }
+
+  "A FindMax" should "return the value of a single node binary tree" in {
+    val btree = Leaf(0)
+
+    assert(FindMax.findMax(btree, Int.MinValue) == 0)
+  }
 }
