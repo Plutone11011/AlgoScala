@@ -17,4 +17,11 @@ class ValidateSubsequenceTest  extends AnyFlatSpec {
 
         assert(!ValidateSubsequence.validateSubsequence(array, sequence))
    } 
+
+   "A ValidateSubsequence" should "return false if the array is smaller than the sequence" in {
+        val array = Array(0, 1, 2)
+        val sequence = Array(1, 14, 3, 2200)
+
+        assert(!ValidateSubsequence.validateSubsequence(array, sequence))
+   }
 }
