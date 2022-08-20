@@ -15,12 +15,12 @@ class TwoNumberSumTest extends AnyFlatSpec {
     assert(TwoNumberSum.twoNumberSum(l, 100).sameElements(Array(98,2)))
   }
 
-  "A TwoNumberSum" should "return the index of the 2 elements that sum up to target" in {
+  "A TwoNumberSum" should "return an empty array when the input array is empty" in {
     val l = Array[Int]()
     assert(TwoNumberSum.twoNumberSum(l, 100).sameElements(Array[Int]()))
   }
 
-  "A TwoNumberSum" should "return the index of the 2 elements that sum up to target" in {
+  "A TwoNumberSum" should "return an empty array when there is no pair that sums up to target" in {
     val l = Array[Int](1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
     assert(TwoNumberSum.twoNumberSum(l, 100).sameElements(Array[Int]()))
   }
