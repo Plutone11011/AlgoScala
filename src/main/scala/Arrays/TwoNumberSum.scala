@@ -7,7 +7,7 @@ import scala.Some
 object TwoNumberSum {
     
     /**
-      * 
+      * Finds 2 numbers in array that sum up to target
       *
       * @param array
       * @param target

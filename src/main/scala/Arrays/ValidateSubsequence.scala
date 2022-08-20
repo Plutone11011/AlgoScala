@@ -3,7 +3,7 @@ package Arrays
 object ValidateSubsequence {
     
     /**
-      * Checks that non-empty sequence is a subsequence of a non-empty array (not necessarily adjacent)
+      * Checks that non-empty sequence is a subsequence (not necessarily of adjacent elements) of a non-empty array 
       *
       * @param array
       * @param sequence
